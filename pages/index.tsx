@@ -15,7 +15,7 @@ export default function Index () {
       </p>
       <style>{`
         .hello {
-          font: 16px Helvetica, Arial, sans-serif;
+          font: 16px Comic Sans MS, Comic Sans, cursive;
           background: #eee;
           padding: 100px;
           text-align: center;
