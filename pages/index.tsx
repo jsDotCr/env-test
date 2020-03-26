@@ -22,7 +22,7 @@ export default function Index () {
           transition: 100ms ease-in background;
         }
         .hello:hover {
-          background: #ccc;
+          background: hotpink;
         }
       `}</style>
     </section>
