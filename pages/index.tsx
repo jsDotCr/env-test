@@ -14,14 +14,14 @@ export default function Index () {
         <strong>{process.env.SERVER}</strong>
       </p>
       <style>{`
-        .hello {
+        .hi {
           font: 16px Comic Sans MS, Comic Sans, cursive;
           background: #eee;
           padding: 100px;
           text-align: center;
           transition: 100ms ease-in background;
         }
-        .hello:hover {
+        .hi:hover {
           background: hotpink;
         }
       `}</style>
