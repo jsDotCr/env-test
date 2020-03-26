@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "SERVER_DEV": "https://stuff.dev",
+      "SERVER_SECRET_DEV": "@test-server-dev-secret",
+      "SERVER_PROD": "https://stuff.prod",
+      "SERVER_SECRET_PROD": "@test-server-prod-secret"
+    }
+  }
+}
