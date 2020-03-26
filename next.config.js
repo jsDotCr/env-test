@@ -1,16 +1,10 @@
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
 
-console.log('stuff defined at build time', {
-  branch: process.env.NOW_GITHUB_COMMIT_REF,
-  SERVER_DEV: process.env.SERVER_DEV,
-  SERVER_SECRET_DEV: process.env.SERVER_SECRET_DEV,
-  SERVER_PROD: process.env.SERVER_PROD,
-  SERVER_SECRET_PROD: process.env.SERVER_SECRET_PROD
-})
-
 const isProductionBranch = process.env.NOW_GITHUB_COMMIT_REF === 'master'
 
 module.exports = (phase) => {
+  console.log('stuff defined at build time', process.env)
+  console.log('is production branch?', isProductionBranch)
   console.log('current phase', phase)
   if (
     // npm run dev, next dev, now dev
