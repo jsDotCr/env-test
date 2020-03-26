@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Index () {
   return (
-    <section className="hello">
+    <section className="hi">
       <p>
         Hello World! Here's a secret shared with the client using Next env:{' '}
         <strong>{process.env.SERVER_SECRET}</strong>, the secret is shared at build time,
